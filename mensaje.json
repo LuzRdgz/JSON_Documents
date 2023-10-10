@@ -1,17 +1,25 @@
 {
 "mensaje": [
 
-  {"remitente": [
-    {"nombre": "Alfredo Reino"}, {"email": "alf@ibium.com"}
-  ]},
+  {
+    "remitente": [
+    {"nombre": "Alfredo Reino"},
+    {"email": "alf@ibium.com"}]
+  },
 
-  {"destinatario": [
-    {"nombre": "Bill Clinton"}, {"email": "president@whitehouse.gov"}
-  ]},
+  {
+    "destinatario": [
+    {"nombre": "Bill Clinton"},
+    {"email": "president@whitehouse.gov"}]
+  },
 
   {"asunto": "Hola Bill"},
 
-  {"texto": [
-    {"inicio": "¿Hola qué tal?"}, {"desarrollo": "Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto."}, {"final": "Un saludo"}
-  ]}
-]}
+  {
+    "texto": [
+    {"inicio": "¿Hola qué tal?"},
+      {"desarrollo": "Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto."},
+      {"final": "Un saludo"}]
+  }]
+
+}

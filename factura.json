@@ -1,59 +1,66 @@
 {
   "factura": [
-    {
-      "bussinessName": [
-        {"streetAdress": ""},
-        {"city": ""},
-        {"state": ""},
-        {"cp": ""},
-        {"phoneNumber": ""},
-        {"email": ""},
-        {"website": ""}
-      ]
-    },
-    {
-      "billTo": [
-        {"clientName": ""},
-        {"streetAdress": ""},
-        {"city": ""},
-        {"state": ""},
-        {"cp": ""}
-      ]
-    },
-    {
-      "shipTo": [
-        {"clientName": ""},
-        {"streetAdress": ""},
-        {"city": ""},
-        {"state": ""},
-        {"cp": ""}
-      ]
-    },
-    {
-      "invoiceDetails": [
-        {"invoiceNumber": ""},
-        {"invoiceDate": ""},
-        {"termsPayment": ""},
-        {"due": ""}
-      ]
-    },
-    {
-      "descriptionServProd": [
-        {"productORservice": ""},
-        {"description": ""},
-        {"qtyHrs": ""},
-        {"rate": ""},
-        {"amount": ""}
-      ]
-    },
-    {
-      "amountToPay": [
-        {"subtotal": ""},
-        {"salesTax": ""},
-        {"shipping": ""},
-        {"total": ""}
-      ]
-    },
+
+    {"bussinessName": [
+      {
+        "streetAdress": "",
+        "city": "",
+        "state": "",
+        "cp": "",
+        "phoneNumber": "",
+        "email": "",
+        "website": ""
+      }
+    ]},
+
+    {"billTo": [
+      {
+        "clientName": "",
+        "streetAdress": "",
+        "city": "",
+        "state": "",
+        "cp": ""
+      }
+    ]},
+
+    {"shipTo": [
+      {
+        "clientName": "",
+        "streetAdress": "",
+        "city": "",
+        "state": "",
+        "cp": ""
+      }
+    ]},
+
+    {"invoiceDetails": [
+      {
+        "invoiceNumber": "",
+        "invoiceDate": "",
+        "termsPayment": "",
+        "due": ""
+      }
+    ]},
+
+    {"descriptionServProd": [
+      {
+        "productORservice": "",
+        "description": "",
+        "qtyHrs": "",
+        "rate": "",
+        "amount": ""
+      }
+    ]},
+
+    {"amountToPay": [
+      {
+        "subtotal": "",
+        "salesTax": "",
+        "shipping": "",
+        "total": ""
+      }
+    ]},
+
     {"customerMessage": "Hello! Thank you for your purchase. Please return this invoice with payment. Thanks!"}
   ]
 }
